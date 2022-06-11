@@ -1,0 +1,1 @@
+export const getTeamsQuery = `SELECT * FROM UITeams.teams`
