@@ -5,11 +5,11 @@ CREATE TABLE `UITeams`.`teams` (
   `team_name` VARCHAR(45) NULL,
   PRIMARY KEY (`team_id`));
 
-INSERT INTO `UITeams`.`teams` (`team_name`) VALUES ('Bezeq Team');
-INSERT INTO `UITeams`.`teams` (`team_name`) VALUES ('Mobile Team');
-INSERT INTO `UITeams`.`teams` (`team_name`) VALUES ('YES Team');
-INSERT INTO `UITeams`.`teams` (`team_name`) VALUES ('UI Team');
-INSERT INTO `UITeams`.`teams` (`team_name`) VALUES ('HOT Team');
+INSERT INTO `UITeams`.`teams` (`team_name`) VALUES ('Bezeq');
+INSERT INTO `UITeams`.`teams` (`team_name`) VALUES ('Mobile');
+INSERT INTO `UITeams`.`teams` (`team_name`) VALUES ('YES');
+INSERT INTO `UITeams`.`teams` (`team_name`) VALUES ('UI');
+INSERT INTO `UITeams`.`teams` (`team_name`) VALUES ('HOT');
 
 CREATE TABLE `UITeams`.`appointments` (
   `id` INT NOT NULL AUTO_INCREMENT,

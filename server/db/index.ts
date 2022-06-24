@@ -31,7 +31,6 @@ async function initDB() {
 }
 
 function getConnection() {
-    console.log(connection)
   return connection;
 }
 
